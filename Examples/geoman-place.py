@@ -1,3 +1,9 @@
+###
+''' 
+1. Layout can be difficult to manage with .place(). This is especially true if your application has lots of widgets.
+2. Layouts created with .place() aren’t responsive. They don’t change as the window is resized.
+ '''
+################################
 import tkinter as tk
 
 window = tk.Tk()

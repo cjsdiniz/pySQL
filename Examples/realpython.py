@@ -18,23 +18,23 @@ btn = tk.Button(
     # bg="blue",
     # fg="yellow",
     # bg="#FFFFE0", #LightYellow
-    bg="#FFD700", #Gold
-    fg="#4169E1" #RoyalBlue
-    )
+    bg="#FFD700",  # Gold
+    fg="#4169E1"  # RoyalBlue
+)
 
 lbl1 = tk.Label(
-    #fg="#FFD700", #Gold,
-    fg = "MediumSlateBlue",
-    bg = "Azure",
-    width = 20)
+    # fg="#FFD700", #Gold,
+    fg="MediumSlateBlue",
+    bg="Azure",
+    width=20)
 
 txt = tk.Text(
-    fg = "MediumSlateBlue",
-    bg = "Azure",
-    width = 20,
-    height = 10)
+    fg="MediumSlateBlue",
+    bg="Azure",
+    width=20,
+    height=10)
 
-name=entry.get()
+name = entry.get()
 greeting.pack()
 label.pack()
 entry.pack()
